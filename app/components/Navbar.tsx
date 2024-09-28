@@ -4,8 +4,8 @@ import Link from "next/link";
 const Navbar = () => {
 	return (
 		<>
-			<div className="flex justify-between bg-black shadow-sm shadow-gray-900 h-[7vh]">
-				<div className="font-mono text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400 py-2 px-4">
+			<div className="flex justify-between bg-black shadow-sm shadow-gray-900 h-[7vh] py-2">
+				<div className="font-mono text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400 px-4">
           algoCRUX
         </div>
         <div className="flex flex-row space-x-6 font-mono px-4 items-center">
