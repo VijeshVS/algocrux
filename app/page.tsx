@@ -22,9 +22,9 @@ export default function Home() {
     },
   ];
   return (
-    <div className="h-[86vh] flex flex-row w-screen">
-      <div className="w-1/4 p-2 shadow-md shadow-gray-800">
-        <div className="flex flex-col space-y-2 justify-center items-center my-4 mx-4">
+    <div className="h-[86vh] flex flex-col md:flex-row">
+      <div className="md:w-1/4 p-2 border-[1px] border-gray-800">
+        <div className="flex flex-col justify-center items-center my-4 mx-4">
           <button className="w-2/5 hover:scale-105 transition-all ease-in-out delay-50 py-1 bg-gray-100 text-black font-semibold rounded-md my-4">Join contest</button>
           <button className="w-2/5 hover:scale-105 transition-all ease-in-out delay-50 py-1 bg-gray-100 text-black font-semibold rounded-md my-4">Create contest</button>
         </div>
@@ -41,7 +41,7 @@ export default function Home() {
           }
         </div>
       </div>
-      <div className="w-3/4 shadow-md shadow-gray-800"></div>
+      <div className="w-full md:w-3/4 border-[1px] border-gray-800"></div>
     </div>
   );
 }
