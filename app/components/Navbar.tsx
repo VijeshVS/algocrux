@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { Transition } from "react-transition-group";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // State for mobile menu
@@ -34,7 +33,7 @@ const Navbar = () => {
           </Link>
           <Link
             href={"/"}
-            className="bg-gradient-to-br from-white to-white hover:from-yellow-300 hover:to-orange-400 duration-300 text-black px-2 py-1 rounded-md font-bold"
+            className="bg-gradient-to-br from-white to-white hover:from-yellow-300 hover:to-orange-400 duration-300 text-black border-b-[1px] border-gray-800 px-2 py-1 rounded-md font-bold"
           >
             Login
           </Link>
